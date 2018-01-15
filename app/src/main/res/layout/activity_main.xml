@@ -28,20 +28,20 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="@string/threePoints"
-        android:onClick="displayThree"/>
+        android:onClick="displayThreeForTeamA"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="@string/twoPoints"
-        android:onClick="displayTwo"/>
+        android:onClick="displayTwoForTeamA"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="@string/onePoints"
-        android:onClick="displayOne"/>
+        android:onClick="displayOneForTeamA"/>
 
 </LinearLayout>
