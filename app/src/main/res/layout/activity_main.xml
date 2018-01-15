@@ -34,12 +34,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="@string/twoPoints" />
+        android:text="@string/twoPoints"
+        android:onClick="displayTwo"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="@string/onePoints" />
+        android:text="@string/onePoints"
+        android:onClick="displayOne"/>
 
 </LinearLayout>
