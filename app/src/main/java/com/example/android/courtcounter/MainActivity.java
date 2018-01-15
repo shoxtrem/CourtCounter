@@ -24,15 +24,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void displayThreeForTeamA(View view) {
-        displayForTeamA(3);
+        scoreTeamA += 3;
+        displayForTeamA(scoreTeamA);
     }
 
     public void displayTwoForTeamA(View view) {
-        displayForTeamA(2);
+        scoreTeamA += 2;
+        displayForTeamA(scoreTeamA);
     }
 
     public void displayOneForTeamA(View view) {
-        displayForTeamA(1);
+        scoreTeamA += 1;
+        displayForTeamA(scoreTeamA);
     }
 }
 
